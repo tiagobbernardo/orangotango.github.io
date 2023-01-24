@@ -17,7 +17,9 @@ body{
     border: 10px;
     border-color: #1c1d25;
 }
-
+section::-webkit-scrollbar{
+    display: none;
+  }
 section{
     height: 500px;
     background-color: black;
