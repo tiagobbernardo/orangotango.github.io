@@ -3,7 +3,7 @@
 		scroll-behavior: auto;
 	}
 }
-section::-webkit-scrollbar{
+body::-webkit-scrollbar{
     display: none;
   }
 html {
