@@ -100,7 +100,9 @@ p{
     margin: 20px;
 }
 
-.blender1 {
+.blender1
+{
+    height: 50px;	
     display: flex;
     justify-content: center;
     align-items: center;
