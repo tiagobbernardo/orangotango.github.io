@@ -264,14 +264,23 @@ a
     display: flex;
 }
 
-.info{
+.perfil
+{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.info
+{
     width: 300px;
 }
-  .wrapper{
+
+.wrapper
+{
     margin-top: 10px ;
     margin-left: 10px;
+}
 
-  }
   .button{
     display: block;
     width: 140px;
