@@ -100,8 +100,10 @@ p{
     margin: 20px;
 }
 
-.blender1{
-    height: 50px;
+.blender1 img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .section2{
@@ -135,8 +137,10 @@ h3{
     display: flex;
 }
 
-.blender2{
-    height: 10px;
+.blender2 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 a
