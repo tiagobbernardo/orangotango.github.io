@@ -100,6 +100,12 @@ p{
     margin: 20px;
 }
 
+.blender1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
 .blender1 img {
     flex-shrink: 0;
     min-width: 100%;
@@ -123,12 +129,14 @@ p{
 margin-top: 40px;
 }
 
-h3{
+h3
+{
     font-weight: 200;
     font-size: 30px;
 }
 
-.section3{
+.section3
+{
     background-color:#1c1d25 ;
     height: 80vh;
     color: white;
@@ -137,6 +145,13 @@ h3{
     display: flex;
 }
 
+.blender2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
 .blender2 img{
     flex-shrink: 0;
     min-width: 100%;
