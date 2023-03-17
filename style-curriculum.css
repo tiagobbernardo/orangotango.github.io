@@ -1,0 +1,26 @@
+body
+{
+    height: 100%;
+}
+
+.curriculum
+{
+    min-height: 85vh;
+    height: 100%;
+}
+
+.curriculum-div
+{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    align-items: center;
+    width: 70%;
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+.page_1
+{
+    border-radius: 15px;
+    overflow: hidden;
+}

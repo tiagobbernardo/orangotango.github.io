@@ -1,0 +1,72 @@
+html
+{
+    background-color: #1D212E;
+}
+
+body::-webkit-scrollbar {
+    display: none;}
+
+body
+{
+    background-color: #1D212E;
+    background: url(backgroundwall.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.active
+{
+    font-size: 25px !important;
+    cursor: default;
+}
+
+.logo
+{
+    height: 50px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+
+}
+
+.logo:hover
+{
+    transform: translateY(-1.25px);
+}
+.logo:after
+{
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.755, 0.050, 0.855, 0.060) forwards;
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.755, 0.050, 0.855, 0.060) forwards;
+}
+
+.navbar
+{
+    color: #ffffff;
+    background-color:#1D212E;
+}
+
+.navbar-nav
+{
+    font-size: 20px;
+}
+
+.Rights
+{
+    height: 40px;
+    background-color: #1D212E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights-text
+{
+    margin: 1px;
+    cursor: default;
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    text-shadow: 1px 1px #000, -1px -1px #000;
+}
